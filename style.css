@@ -116,8 +116,8 @@ ul li:hover .sub-menu{
     width: 20px;
     text-align: center;
     transform: translateY(-4.5vh);
-    margin-left: 110px;
-    margin-top: 7px;
+    margin-left: 115px;
+    margin-top: 1px;
     border-radius: 50%; 
     font-size: 15px;
     box-shadow: -3px 3px -3px  black;
@@ -682,4 +682,15 @@ hr{
     position: relative;
     left: 360px;
     top: 110px;
+}
+@media screen and (max-width: 710px ){
+    body{
+        width: 90%;      
+    }
+}
+
+@media screen and (max-width: 600px ){
+    body{
+        height: 100%;      
+    }
 }
